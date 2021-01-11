@@ -1,0 +1,89 @@
+body {
+    font-style: oblique;
+}
+
+nav {
+    background: #a7c5eb;
+    padding: 10px;
+    margin: 20px;
+    text-align:left;
+    font-size: x-large;
+}
+
+
+h3 {
+    font-size: x-large;
+    font-weight: 500px;
+    color: #e97171;
+}
+
+h{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+
+.tabla {
+    color: #e97171;
+    margin: 0 auto;
+    width: 90%;
+    background: rgba(255, 170, 100, 0.493);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888;
+    width: 23%;
+    box-sizing:border-box;
+}
+
+/*Para ordenar las tablas de precio*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    color: #931a25;
+    font-size: x-large;
+}
+
+.precio {
+    font-size: 50px;
+    color: #118f78a1
+}
+
+/*Para añadir cuadro al enlace de compra(boton)*/
+.boton {
+    background: salmon;
+    display:block;
+    padding: 10px;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 1100px){
+    .tabla{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 900px){
+    .tabla{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:600px){
+    .tabla{
+        width: 75%;
+        margin-bottom: 20px;
+    }
+}
+
+.foto{
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 200px;
+}

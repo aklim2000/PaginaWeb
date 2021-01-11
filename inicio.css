@@ -1,0 +1,32 @@
+body{
+    background: #949cdf;
+}
+
+h1 {
+    color: #ffe6e6;
+    margin: 20px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    background: #6155a6;
+}  
+
+nav {
+    background: #a7c5eb;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+p {
+    font-size: x-large;
+    text-align: center;
+}
+
+/*Se usan las siguientes instrucciones para centrar la imagen */
+.imagen {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
